@@ -39,25 +39,43 @@ AIML BE 3 RD SEM
  Entire use case is based on only one single Date Format that is selected by the
  user.
 
+**How It Works**
+
+1.Date Parsing: The program normalizes and parses dates according to the specified format and delimiter.
+
+2.Age Calculation: It computes the difference in years, months, and days, accounting for leap years and varying days in months.
+
+3.Date of Birth Calculation: It subtracts the age from the reference date, adjusting for month and day rollovers.
+
+**Error Handling**
+
+1.The program checks for valid input formats and provides error messages for invalid dates or formats.
+
+2.If the input parameters are incorrect or incomplete, the program outputs usage instructions.
+
 **IV. Program inputs in the order:**
  The program is executed using the Command
+ 
  Line-Arguments. 1st param, 2nd param, 3rd param, 4th param
+ 
  1st param: "DOB=27-02-2001", or "AGE=22dlc04dlc20"
+ 
  2nd param: current date or reference date.
+ 
  ( enter either the current date or specific reference date)
+
  3rd param: Date format, DDdlcMMdlcYYYY
+
  4th param: dlc
  
 **V. results:**
 
-1.
-input:
+1.input:
 java AgeCalculator "DOB=15-04-1990" "15-11-2024" "DD-MM-YYYY" "-"
 output:
 Age is 34 years, 7 months, 0 days
 
-2.
-input:
+2.input:
 java AgeCalculator "DOB=15-15-1990" "15-11-2024" "DD-MM-YYYY" "-"
 output:
 Error: Invalid DOB.
