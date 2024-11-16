@@ -1,7 +1,13 @@
 NAME:G.HRUDYA
-ROLLNO:100523729020
+
+ROLL NO:100523729020
+
 AIML BE 3 RD SEM
- **JAVA MINI PROJECT**
+
+ 
+ **JAVA MINI PROJECT** 
+ 
+ AGE AND DOB CALCULATOR
  
  **I. Use Case:** 
  1. inputs to the program are either the DOB of a person OR age of the person.
@@ -43,14 +49,6 @@ AIML BE 3 RD SEM
  4th param: dlc
  
 **V. results:**
- if inputs are
- 1) "DOB=28-02-2001", "27-02-2024", "DD-MM-YYYY", "-"
- print age is 23 years, 0 months, 0days
- 2) for 19 yrs , 10 months and 27 days aged person,
- "AGE=27-10-0019", "27-10-2024", "DD-MM-YYYY", "-"
- print DOB
-
-Examples:
 
 1.
 input:
